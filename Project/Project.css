@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.side{
+
+    background-color: rgb(0, 0, 0);
+    border-right: rgb(255, 0, 0) 2px solid;
+    flex: 1;
+    height: 100vh;
+
+    /* width: 25%;
+    height: 100vh;
+    background-color: black;
+    color: gold;
+   text-align: center;
+    float: left;
+    border-right: 4px solid white; */
+}
+.side img{
+    height: 150px;
+    width: 150px;
+    margin: 50px ;
+    border: 5px solid red;
+    border-radius: 50%;
+}
+.side img:hover{
+    border-color: gold;
+    border-radius: 0;
+}
+.links a{
+    color: white;
+    text-align: justify;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: larger;
+    line-height: 50px;
+}
+a:hover{
+    font-size: xx-large;
+    /* color: black;
+    background-color: white; */
+    transition: 0.5s ease-out;
+
+}
+.main{
+
+    background-color: lightblue;
+    border: 1px solid black;
+    flex: 4;
+    background-image: url("John\ Wick.jpg") ;
+    /* filter: brightness(50%); */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+}
+.circle{
+    text-align: center;
+}
+
+.main h1,h3{
+    position: relative;
+    top: 410px;
+    left: 150px;
+    color: gold;
+    font-family: cursive;
+    text-shadow: 3px 3px 9px red;
+}
+.main img{
+    height:100vh;
+}
+#fa{
+   margin: 10px;
+     
+}
+.icons{
+    display: flex;
+}
+#fa2{
+    color: white;
+    margin-bottom: 50px;
+    margin-left: 25px;
+    font-size: larger;
+}
+#line{
+    margin-bottom: 30px;
+    border: 2px solid gold;
+}
